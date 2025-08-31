@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>العرايشي - مهندس برمجيات</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- الخلفية المتحركة -->
+  <div class="animated-bg"></div>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+  <!-- ====== Header ====== -->
+  <header>
+    <div class="container">
+      <div class="logo" data-key="logo">العرايشي</div>
+      <nav>
+        <ul>
+          <li><a href="#home" data-key="home">الرئيسية</a></li>
+          <li><a href="#about" data-key="about">من أنا</a></li>
+          <li><a href="#services" data-key="services">الخدمات</a></li>
+          <li><a href="#skills" data-key="skills">المهارات</a></li>
+          <li><a href="#portfolio" data-key="portfolio">الأعمال</a></li>
+          <li><a href="#testimonials" data-key="testimonials">آراء العملاء</a></li>
+          <li><a href="#contact" data-key="contact">تواصل</a></li>
+        </ul>
+      </nav>
+      <button id="lang-toggle">EN</button>
+    </div>
+  </header>
+
+  <!-- ====== Hero Section ====== -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 data-aos="fade-down" data-aos-delay="100" data-key="heroTitle">أنا محمد العرايشي</h1>
+        <h2 data-aos="fade-down" data-aos-delay="200" data-key="heroSubtitle">مهندس برمجيات ومطور مواقع</h2>
+        <p data-aos="fade-down" data-aos-delay="300" data-key="heroDesc">أبني مواقع احترافية حديثة وسريعة تناسب جميع الأعمال والشركات.</p>
+        <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400" data-key="contactBtn">تواصل معي</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== About Me ====== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="aboutTitle">من أنا</h2>
+      <p data-aos="fade-up" data-key="aboutDesc">
+        أنا مهندس برمجيات متخصص في تطوير مواقع الويب باستخدام أحدث التقنيات.
+        أعمل على تحويل الأفكار إلى منتجات رقمية متكاملة وسهلة الاستخدام.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== Services ====== -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="servicesTitle">الخدمات</h2>
+      <div class="service-list">
+        <div class="service-item" data-aos="fade-right" data-aos-delay="100">
+          <i class="fas fa-code"></i>
+          <h3 data-key="service1Title">تطوير المواقع</h3>
+          <p data-key="service1Desc">تصميم وتطوير مواقع سريعة الاستجابة ومناسبة لجميع الأجهزة.</p>
+        </div>
+        <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-paint-brush"></i>
+          <h3 data-key="service2Title">تصميم واجهات</h3>
+          <p data-key="service2Desc">تصميم واجهات مستخدم عصرية وجذابة تسهل تجربة العملاء.</p>
+        </div>
+        <div class="service-item" data-aos="fade-left" data-aos-delay="300">
+          <i class="fas fa-server"></i>
+          <h3 data-key="service3Title">برمجة الخلفية</h3>
+          <p data-key="service3Desc">بناء أنظمة قوية وآمنة باستخدام أحدث تقنيات السيرفر.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Skills ====== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="skillsTitle">المهارات</h2>
+      <ul>
+        <li data-aos="fade-up" data-aos-delay="100">HTML / CSS / JavaScript</li>
+        <li data-aos="fade-up" data-aos-delay="150">React / Angular / Vue</li>
+        <li data-aos="fade-up" data-aos-delay="200">Node.js / PHP / Python</li>
+        <li data-aos="fade-up" data-aos-delay="250">Databases: MySQL / MongoDB</li>
+        <li data-aos="fade-up" data-aos-delay="300">Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== Portfolio ====== -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="portfolioTitle">الأعمال</h2>
+      <div class="portfolio-list">
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://via.placeholder.com/400x300?text=مشروع+شركة+عقارات" alt="مشروع 1">
+          <h3 data-key="project1Title">مشروع شركة عقارات</h3>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://via.placeholder.com/400x300?text=متجر+إلكتروني" alt="مشروع 2">
+          <h3 data-key="project2Title">متجر إلكتروني</h3>
+        </div>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+          <img src="https://via.placeholder.com/400x300?text=منصة+تعليمية" alt="مشروع 3">
+          <h3 data-key="project3Title">منصة تعليمية</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Testimonials ====== -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="testimonialsTitle">آراء العملاء</h2>
+      <div class="testimonial-item" data-aos="flip" data-aos-delay="100">
+        <p data-key="testimonial1Text">"محمد مهندس متميز ومحترف، قام بتصميم موقعنا بشكل رائع ووفاءً بجميع المتطلبات في الوقت المحدد."</p>
+        <h4 data-key="testimonial1Author">- أحمد السيد، مدير شركة التقنية</h4>
+      </div>
+      <div class="testimonial-item" data-aos="flip" data-aos-delay="200">
+        <p data-key="testimonial2Text">"تعاملت مع العديد من المطورين، لكن محمد يتميز بالإبداع والدقة في العمل وسرعة الاستجابة."</p>
+        <h4 data-key="testimonial2Author">- سارة محمد، صاحبة متجر إلكتروني</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact ====== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 data-aos="fade-down" data-key="contactTitle">تواصل معي</h2>
+      <form data-aos="zoom-in" data-aos-delay="100">
+        <input type="text" placeholder="الاسم" data-key="namePlaceholder" required>
+        <input type="email" placeholder="البريد الإلكتروني" data-key="emailPlaceholder" required>
+        <textarea placeholder="رسالتك" data-key="messagePlaceholder" required></textarea>
+        <button type="submit" data-key="submitBtn">إرسال</button>
+      </form>
+
+      <div class="social-links" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://wa.me/201002474027" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:mohammedealarishy@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/mohammed-ealarishy-823247374" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/mohamed_elarishy2" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/15dvccxb2n/" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer>
+    <div class="container">
+      <p data-key="footerText">© 2025 جميع الحقوق محفوظة - العرايشي</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
